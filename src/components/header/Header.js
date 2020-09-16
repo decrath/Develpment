@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import './Header.css';
 import { Typography, Toolbar, Button } from "@material-ui/core";
 
 class Header extends Component {
   render() {
     return (
       <div>
-        <Toolbar color="Primary">
+        <Toolbar className="color-of-header">
           <Button>
             <Typography>Home</Typography>
           </Button>
@@ -16,7 +17,7 @@ class Header extends Component {
           </Button>
           <Button>
               <Typography>
-                  I don't remember tthis part
+                  Users
               </Typography>
           </Button>
         </Toolbar>
